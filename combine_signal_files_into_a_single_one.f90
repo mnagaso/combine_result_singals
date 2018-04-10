@@ -1,9 +1,4 @@
-
-! Here is the command which I am using,
-! sed -n '(line start),(line end)p;(line end+1)q' an_input.semp > an_output.semp
-! 
-
-  program combine_signal_files_into_a_single_one
+program combine_signal_files_into_a_single_one
 
 
   use hdf5
@@ -88,10 +83,6 @@
   write(*,*) "exporting as a hdf5 file..."
 
 
-
-!
-!    Initialize FORTRAN interface.
-!
   call h5open_f (error)
   ! Create a new file using default properties.
   call h5fcreate_f(out_h5_name, H5F_ACC_TRUNC_F, file_id, error)
@@ -112,9 +103,7 @@
   call h5sclose_f(dspace_id, error)
 
   call h5fclose_f(file_id, error)
-!
-!    Close FORTRAN interface.
-!
+
   call h5close_f(error)
 
   contains 
@@ -153,6 +142,5 @@
       end if
     end function
 
-
-  end program combine_signal_files_into_a_single_one
+end program combine_signal_files_into_a_single_one
 
