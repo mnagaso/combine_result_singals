@@ -18,7 +18,7 @@ def main():
     # time window for limited extraction of timesteps
     time_window = [0,total_timesteps-1]  
 
-    #binarize_signals(file_of_signal_list, cutout_files, i_group, len(signal_path_list))
+    # binarize_signals
     cmd = './combine ' + file_of_signal_list + ' ' + output_file_name + ' ' + str(total_num_sigs) + \
                    ' ' + str(time_window[0]) + ' ' +  str(time_window[1]) + ' ' + str(total_timesteps)
     subprocess.call(cmd, shell=True)
