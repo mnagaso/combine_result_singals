@@ -2,7 +2,7 @@
 
 A set of scripts and samples to combine seismo files into single binary file in HDF5 format.  
 
-description:  
+file description:  
 * combine_signal_files_into_a_single_one.f90: fortran code which do the conbine process  
 * compile_on_occigen.sh: useful script when one comile the fortran code on OCCIGEN/CINES 
 * test_script_convert_signals_to_one_single_binalize.py: sample script for the process  
