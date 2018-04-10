@@ -14,3 +14,21 @@ file description:
 1. compile combine_signal_files_into_a_single_one.f90 with compile flags for HDF5 (just do `./compile_on_occigen.sh` if you use it on OCCIGEN)  
 2. prepare list_signal_files.txt which is a list of pathes for seismo signal files.  
 3. `python test_script_convert_signals_to_single_binary.py` then the result will be saved as test_out.h5  
+
+　 ∧,,∧  
+　(；`・ω・）　　｡･ﾟ･⌒  
+　/　　 ｏ━ヽニニフ))  
+　しー-Ｊ  
+
+
+　　　　　　　　｡･ﾟ･  
+　 ∧,,∧ て　　　　　｡･ﾟ･｡･ﾟ･  
+　(； ´ﾟωﾟ）て　　　／／  
+　/　　 ｏ━ヽニニフ  
+　しー-Ｊ　　 　彡  
+
+
+　　　　∧,,∧  　
+　　　（ ´・ω・）  
+　　c(,＿Ｕ_Ｕ　　　　　　･ﾟ･｡･ ﾟ･｡･ﾟ･ ｡･ﾟ･  
+　　　　　━ヽニニフ  
