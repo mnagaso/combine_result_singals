@@ -2,7 +2,7 @@
 
 A set of scripts and samples to combine seismo files into single binary file in HDF5 format.  
 
-file description:  
+### description of included files:  
 * combine_signal_files_into_a_single_one.f90: fortran code which do the combine process.  
 * test_signal_files.txt: a list of signal pathes that will be combined.
 * test_script_convert_signals_to_one_single_binalize.py: sample script for the process.  
