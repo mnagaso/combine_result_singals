@@ -12,7 +12,7 @@ A set of scripts and samples to combine seismo files into single binary file in 
   
 
 ## To use in your environment
-1. compile combine_signal_files_into_a_single_one.f90 with compile flags for HDF5 
+1. compile combine_signal_files_into_a_single_one.f90 with compile flags for HDF5  
 `h5pfc (or h5fc) combine_signal_files_into_a_single_one.f90 -o combine`  
 (just do `./compile_on_occigen.sh` if you use it on OCCIGEN)  
 2. prepare list_signal_files.txt which is a list of pathes for seismo signal files.  
