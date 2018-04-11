@@ -1,10 +1,4 @@
 import subprocess
-    
-def binarize_signals(list_file, out_folder, group_id, num_sigs):
-    out_bin = out_folder + 'signals_'+str(group_id)+'.h5'
-    cmd = './combine ' + list_file + ' ' + out_bin + ' ' + str(num_sigs) + ' ' + str(time_windows[0]) + ' ' +  str(time_windows[1]) 
-    subprocess.call(cmd, shell=True)
-
 
 def main():
     """
