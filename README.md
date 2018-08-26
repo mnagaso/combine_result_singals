@@ -1,4 +1,4 @@
-![Logo](./sigs2hdf5.png)
+<img src="./sigs2hdf5.png" width="500">
 
 # combine result singals
 
