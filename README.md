@@ -1,4 +1,4 @@
-![Logo](./Logo_mm.png)
+![Logo](./sigs2hdf5.png)
 
 # combine result singals
 
