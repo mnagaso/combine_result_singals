@@ -1,3 +1,5 @@
+![Logo](./Logo_mm.png)
+
 # combine result singals
 
 A set of scripts and samples to combine seismo files into single binary file in HDF5 format.  
