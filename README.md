@@ -1,4 +1,4 @@
-# combine_result_singals
+# combine result singals
 
 A set of scripts and samples to combine seismo files into single binary file in HDF5 format.  
 
@@ -18,8 +18,3 @@ A set of scripts and samples to combine seismo files into single binary file in 
 2. prepare list_signal_files.txt which is a list of pathes for seismo signal files.  
 3. `python test_script_convert_signals_to_single_binary.py` then the result will be saved as test_out.h5  
    
-
-　 ∧,,∧  
-　(；`・ω・）　　｡･ﾟ･⌒  
-　/　　 ｏ━ヽニニフ))  
-　しー-Ｊ  
