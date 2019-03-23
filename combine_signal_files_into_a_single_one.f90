@@ -80,7 +80,7 @@ program combine_signal_files_into_a_single_one
 
 
   write(*,*) "loading signals end."
-  write(*,*) "exporting as a hdf5 file..."
+  write(*,*) "exporting a hdf5 file..."
 
 
   call h5open_f (error)
